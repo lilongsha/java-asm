@@ -72,4 +72,15 @@
 
 ### ASM与ClassFile的区别
 1. ClassFile
-    1. 
+    1. 常见的字节码类库
+       1. Apache Commons BCEL(Byte Code Engineering Library)
+       2. Javassist(Java programming assistant)
+       3. ObjectWeb ASM
+       4. Byte Buddy
+2. ASM fast small
+3. ASM与ClassFile的关系
+4. ClassFile结构
+![ClassFile结构](img/ClassFile Structure.png)
+   1. u1 u2 u4 u8 占用字节数
+   2. cp_info(constant_pool常量池) field_info() method_info attribute_info 表示复杂的结构也是由u1 u2 u4 u8x组成的
+   3. 
